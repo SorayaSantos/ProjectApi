@@ -1,0 +1,9 @@
+package io.altar.jseproject.services;
+
+import javax.faces.application.Application;
+import javax.ws.rs.ApplicationPath;
+
+@ApplicationPath("/api")
+public class App extends Application{
+
+}

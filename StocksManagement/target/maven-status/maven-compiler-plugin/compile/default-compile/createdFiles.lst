@@ -1,0 +1,9 @@
+io/altar/jseproject/model/Entity.class
+io/altar/jseproject/repositories/ProductRepository.class
+io/altar/jseproject/model/Product.class
+io/altar/jseproject/repositories/ShelfRepository.class
+io/altar/jseproject/services/Services.class
+io/altar/jseproject/model/Shelf.class
+io/altar/jseproject/services/App.class
+io/altar/jseproject/business/Business.class
+io/altar/jseproject/repositories/EntityRepository.class

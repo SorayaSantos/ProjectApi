@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.faces.application.Application"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Application"/>
+<fullyQualifiedTypeName name="javax.ws.rs.ApplicationPath"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.business.Business"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package io.altar.jseproject.services;
+
+@ApplicationPath("/api")
+public class App extends Application {
+
+}

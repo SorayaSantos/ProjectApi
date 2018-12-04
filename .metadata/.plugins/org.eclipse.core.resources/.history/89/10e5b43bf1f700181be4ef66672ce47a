@@ -1,0 +1,19 @@
+package io.altar.jseproject.services;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import io.altar.jseproject.business.*;
+import io.altar.jseproject.model.Product;
+
+@Path("/exemplos")
+public class Services {
+	
+	@POST
+	@Consumes("application/json")
+	@Produces("application/json")
+	CreateProduct(Product product)
+	
+	
+}

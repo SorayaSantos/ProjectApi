@@ -12,13 +12,13 @@ import io.altar.jseproject.model.Product;
 @Path("/products")
 public class ProductServices {
 
-	ProductBusiness business = new ProductBusiness();
+	ProductBusiness productBusiness = new ProductBusiness();
 
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public Product createProduct(Product product) {
-		business.createProduct(product);
+		productBusiness.createProduct(product);
 		return product;
 	}
 

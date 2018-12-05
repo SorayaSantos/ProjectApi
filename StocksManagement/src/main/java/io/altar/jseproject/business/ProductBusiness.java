@@ -12,7 +12,6 @@ import io.altar.jseproject.repositories.ShelfRepository;
 public class ProductBusiness {
 	
 	static ProductRepository productRepository1 = ProductRepository.getInstance();
-	static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
 
 	public void createProduct(Product product) {
 		
@@ -20,20 +19,7 @@ public class ProductBusiness {
 
 	}
 
-	public void createShelf(Shelf shelf) {
-		
-		Product product = shelf.getProduct();
-		product = productRepository1.ConsultEntityById(product.getId());
-		shelf.setProduct(product);
-		
-		ArrayList<Shelf> shelvesList = new ArrayList<Shelf>();
-		shelvesList = product.getShelves_list();
-		shelvesList.add(shelf);
-		product.setShelves_list(shelvesList);
-
-		shelfRepository1.CreateEntities(shelf);
-
-		}
+	
 //
 //	public static void EditProduct() {
 //

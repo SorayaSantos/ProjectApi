@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.business.Business"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Shelf"/>
 </qualifiedTypeNameHistroy>

@@ -3,7 +3,6 @@ package io.altar.jseproject.model;
 public class Shelf extends Entity{
 	private static final long serialVersionUID=1L;
 
-
 	private long capacity;
 	private Product product;
 	private double price;
@@ -14,6 +13,13 @@ public class Shelf extends Entity{
 		
 		this.capacity = capacity;
 		this.product = product;
+		this.price = price;
+	}
+	
+
+	public Shelf(long capacity, double price) {
+		super();
+		this.capacity = capacity;
 		this.price = price;
 	}
 

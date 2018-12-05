@@ -1,0 +1,23 @@
+package io.altar.jseproject.business;
+
+import java.util.ArrayList;
+
+import io.altar.jseproject.model.Product;
+import io.altar.jseproject.model.Shelf;
+
+public class ShelfBusiness {
+public void createShelf(Shelf shelf) {
+		
+		Product product = shelf.getProduct();
+		product = productRepository1.ConsultEntityById(product.getId());
+		shelf.setProduct(product);
+		
+		ArrayList<Shelf> shelvesList = new ArrayList<Shelf>();
+		shelvesList = product.getShelves_list();
+		shelvesList.add(shelf);
+		product.setShelves_list(shelvesList);
+
+		shelfRepository1.CreateEntities(shelf);
+
+		}
+}

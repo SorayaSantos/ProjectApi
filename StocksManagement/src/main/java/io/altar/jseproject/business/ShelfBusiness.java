@@ -1,6 +1,7 @@
 package io.altar.jseproject.business;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 import io.altar.jseproject.model.Product;
 import io.altar.jseproject.model.Shelf;
@@ -11,18 +12,31 @@ public class ShelfBusiness {
 	static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
 	static ProductBusiness productBusiness = new ProductBusiness();
 
-public void createShelf(Shelf shelf) {
-		
-		//Product product = shelf.getProduct();
-		//product = ProductBusiness.productRepository1.ConsultEntityById(product.getId());
-		//shelf.setProduct(product);
-		
-		//ArrayList<Shelf> shelvesList = new ArrayList<Shelf>();
-		//shelvesList = product.getShelves_list();
-		//shelvesList.add(shelf);
-		//product.setShelves_list(shelvesList);
+	public void createShelf(Shelf shelf) {
 
-		shelfRepository1.CreateEntities(shelf);
+		shelfRepository1.createEntities(shelf);
 
+		Product product = shelf.getProduct();
+		product = ProductBusiness.productRepository1.consultEntityById(product.getId());
+		shelf.setProduct(product);
+
+		ArrayList<Long> shelvesList;
+		shelvesList = product.getShelves_list();
+		shelvesList.add(shelf.getId());
+		product.setShelves_list(shelvesList);
+
+	}
+	public Collection<Shelf> consultShelves() {
+
+			return shelfRepository1.consultEntities();
 		}
-}
+	
+	public Shelf consultShelfById(long id) {
+		return shelfRepository1.consultEntityById(id);
+	}
+	public void deleteShelfById(long id) {
+		shelfRepository1.removeEntityById(id);
+	}
+	}
+	
+

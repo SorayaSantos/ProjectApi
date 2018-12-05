@@ -1,8 +1,14 @@
 package io.altar.jseproject.services;
 
+import java.util.Collection;
+
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -21,5 +27,30 @@ public class ProductServices {
 		productBusiness.createProduct(product);
 		return product;
 	}
-
+	@GET
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Collection<Product> consultProducts() {
+		return productBusiness.consultProducts();
+	}
+	@GET
+	@Path("/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product consultProductById(@PathParam("id") long id) {
+		return productBusiness.consultProductById(id);
+	}
+	@DELETE
+	@Path("/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String deleteProductById(@PathParam("id") long id) {
+		productBusiness.deleteProductById(id);
+		return "Product deleted";
+	}
+	@PUT
+	@Path("/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product editProductById(@PathParam("id") long id, Product product) {
+		productBusiness.editProductById(id, product);
+		return product;
+	}
 }

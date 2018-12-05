@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="" key="defaultDestinationPath"/>
-	<item value="/Users/alunomanha" key="defaultDialogPath"/>
+	<item value="/Users/s4/wildfly-10.1.0.Final" key="defaultDialogPath"/>
 	<item value="true" key="deleteOnExit"/>
 	<section name="downloadRuntimeSection">
 	</section>

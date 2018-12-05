@@ -18,22 +18,22 @@ public abstract class EntityRepository<T extends Entity>{
 		return actualId ++;
 	}
 
-	public long CreateEntities(T ent) {
+	public long createEntities(T ent) {
 		long newId = nextId();
 		ent.setId(newId);
 		map.put(ent.getId(), ent);
 		return newId;
 	}
-	public Collection<T> ConsultEntities() {
+	public Collection<T> consultEntities() {
 		return map.values();	
 	}
-	public T ConsultEntityById(Long id){
+	public T consultEntityById(long id){
 		return map.get(id);
 	}
-	public void EditEntityById(long id, T ent){
+	public void editEntityById(long id, T ent){
 		map.replace(id,ent);
 	}
-	public void RemoveEntityById(Long id){
+	public void removeEntityById(Long id){
 		map.remove(id);
 	}
 

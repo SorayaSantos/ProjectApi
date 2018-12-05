@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class Product extends Entity{
 	private static final long serialVersionUID=1L;
 	
-	private ArrayList<Shelf> shelves_list= new ArrayList<Shelf>();
+	private ArrayList<Long> shelves_list= new ArrayList<Long>();
 	private double discount;
 	private double iva;
 	private double pvp;
 	public Product(){}
 
-	public Product(ArrayList<Shelf> shelves_list, double discount, double iva, double pvp) {
+	public Product(ArrayList<Long> shelves_list, double discount, double iva, double pvp) {
 		super();
 		this.shelves_list = shelves_list;
 		this.discount = discount;
@@ -26,11 +26,11 @@ public class Product extends Entity{
 		this.pvp = pvp;
 	}
 
-	public ArrayList<Shelf> getShelves_list() {
+	public ArrayList<Long> getShelves_list() {
 		return shelves_list;
 	}
 
-	public void setShelves_list(ArrayList<Shelf> shelves_list) {
+	public void setShelves_list(ArrayList<Long> shelves_list) {
 		this.shelves_list = shelves_list;
 	}
 
@@ -60,7 +60,7 @@ public class Product extends Entity{
 	private String getStringOfShelves(){
 		String str="";
 		for(int i=0;i<shelves_list.size();i++){
-			str+=shelves_list.get(i).getId();
+			str+=shelves_list.get(i);
 			str+=", ";
 		}
 		return str;

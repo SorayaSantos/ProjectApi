@@ -11,15 +11,43 @@ import io.altar.jseproject.repositories.ShelfRepository;
 
 public class ProductBusiness {
 	
+	static ShelfBusiness shelfBusiness = new ShelfBusiness();
 	static ProductRepository productRepository1 = ProductRepository.getInstance();
 
 	public void createProduct(Product product) {
 		
-		productRepository1.CreateEntities(product);
+		productRepository1.createEntities(product);
 
 	}
 
+	public Collection<Product> consultProducts() {
+		
+		return productRepository1.consultEntities();
+	}
 	
+	public Product consultProductById(long id) {
+		return productRepository1.consultEntityById(id);
+	}
+	
+	public void deleteProductById(long id) {
+		productRepository1.removeEntityById(id);
+	}
+	public Product editProductById(long id,Product product) {
+		ArrayList<Long> oldShelvesList;
+		ArrayList<Long> newShelvesList;
+		newShelvesList=product.getShelves_list();
+		oldShelvesList=productRepository1.consultEntityById(id).getShelves_list();
+		for (Long idShelf:oldShelvesList){
+			Shelf shelf = ShelfBusiness.shelfRepository1.consultEntityById(idShelf);
+			shelf.setProduct(null);
+		}
+		for (Long idShelf:newShelvesList){
+			Shelf shelf = ShelfBusiness.shelfRepository1.consultEntityById(idShelf);
+			//shelf.setProduct(null);
+		}
+		productRepository1.editEntityById(id,product);
+		return product;
+	}
 //
 //	public static void EditProduct() {
 //

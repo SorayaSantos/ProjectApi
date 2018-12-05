@@ -1,0 +1,61 @@
+package io.altar.jseproject.model;
+
+public class Shelf extends Entity{
+	private static final long serialVersionUID=1L;
+
+	private long capacity;
+	private long productId;
+	private double price;
+	public Shelf(){}
+	
+
+	
+
+	public Shelf(long capacity, double price) {
+		super();
+		this.capacity = capacity;
+		this.price = price;
+	}
+
+	public long getCapacity() {
+		return capacity;
+	}
+
+	public void setCapacity(long capacity) {
+		this.capacity = capacity;
+	}
+
+	
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	
+
+	public long getProductId() {
+		return productId;
+	}
+
+
+
+
+	public void setProductId(long productId) {
+		this.productId = productId;
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		
+			return "Shelf"+getId() + ", Shelf [capacity=" + capacity + ", product=none product stored" + ", price=" + price + "]";
+
+	}
+	
+	
+}

@@ -45,4 +45,10 @@ public class ShelfServices {
 		shelfBusiness.deleteShelfById(id);
 		return "Shelf deleted";
 	}
+	@GET
+	@Path("/health")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String health() {
+		return "healthy";
+	}
 }

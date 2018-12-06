@@ -43,7 +43,7 @@ public class ProductBusiness {
 		}
 		for (Long idShelf:newShelvesList){
 			Shelf shelf = ShelfBusiness.shelfRepository1.consultEntityById(idShelf);
-			//shelf.setProduct(null);
+			shelf.setProduct(product);
 		}
 		productRepository1.editEntityById(id,product);
 		return product;

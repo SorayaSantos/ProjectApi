@@ -1,0 +1,55 @@
+package io.altar.jseproject.business;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import io.altar.jseproject.model.Product;
+import io.altar.jseproject.model.Shelf;
+import io.altar.jseproject.repositories.ShelfRepository;
+import io.altar.jseproject.repositories.ProductRepository;
+
+public class ShelfBusiness {
+	static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
+	static ProductBusiness productBusiness = new ProductBusiness();
+
+	public void createShelf(Shelf shelf) {
+
+		shelfRepository1.createEntities(shelf);
+		
+		if (shelf.getProduct()!=null) {
+		Product product = shelf.getProduct();
+		product = ProductBusiness.productRepository1.consultEntityById(product.getId());
+		shelf.setProduct(product);
+
+		ArrayList<Long> shelvesList;
+		shelvesList = product.getShelves_list();
+		shelvesList.add(shelf.getId());
+		product.setShelves_list(shelvesList);
+		}
+	}
+	public Collection<Shelf> consultShelves() {
+
+			return shelfRepository1.consultEntities();
+		}
+	
+	public Shelf consultShelfById(long id) {
+		return shelfRepository1.consultEntityById(id);
+	}
+	public void deleteShelfById(long id) {
+		shelfRepository1.removeEntityById(id);
+	}
+	public Shelf editShelfById(long id,Shelf shelf) {
+		Product actualProduct = null;
+		long actualIdProduct;
+		ArrayList<Shelf> actualShelvesList = new ArrayList<Shelf>();
+		Shelf shelfToBeChanged = shelfRepository1.consultEntityById(id);
+
+		
+		if (shelfToBeChanged.getProduct() != null) {
+			actualProduct = shelfToBeChanged.getProduct();
+			actualIdProduct = actualProduct.getId();
+			actualShelvesList = actualProduct.getShelves_list();
+	}
+	}}
+	
+

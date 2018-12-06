@@ -10,34 +10,64 @@ import io.altar.jseproject.repositories.ProductRepository;
 
 public class ShelfBusiness {
 	static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
+	static ProductRepository productRepository = ProductRepository.getInstance();
 	static ProductBusiness productBusiness = new ProductBusiness();
 
 	public void createShelf(Shelf shelf) {
 
-		shelfRepository1.createEntities(shelf);
-		
-		if (shelf.getProduct()!=null) {
-		Product product = shelf.getProduct();
-		product = ProductBusiness.productRepository1.consultEntityById(product.getId());
-		shelf.setProduct(product);
+		if (shelf.getProduct() != null) {
+			Product product = productRepository.consultEntityById(shelf.getProduct().getId());
+			if (product!= null) {
 
-		ArrayList<Long> shelvesList;
-		shelvesList = product.getShelves_list();
-		shelvesList.add(shelf.getId());
-		product.setShelves_list(shelvesList);
+				shelfRepository1.createEntities(shelf);
+				
+				shelf.setProduct(product);
+
+				ArrayList<Long> shelvesList;
+				shelvesList = product.getShelves_list();
+				shelvesList.add(shelf.getId());
+				product.setShelves_list(shelvesList);
+			}
+			else{
+				shelf.setProduct(null);
+			}
+
+		} else {
+				shelfRepository1.createEntities(shelf);
 		}
 	}
+
 	public Collection<Shelf> consultShelves() {
 
-			return shelfRepository1.consultEntities();
-		}
-	
+		return shelfRepository1.consultEntities();
+	}
+
 	public Shelf consultShelfById(long id) {
 		return shelfRepository1.consultEntityById(id);
 	}
+
 	public void deleteShelfById(long id) {
 		shelfRepository1.removeEntityById(id);
 	}
-	}
-	
 
+	public Shelf editShelfById(long id, Shelf shelf) {
+		Product oldProduct = null;
+
+		Shelf shelfToBeChanged = shelfRepository1.consultEntityById(id);
+
+		if (shelfToBeChanged.getProduct() != null) {
+			oldProduct = shelfToBeChanged.getProduct();
+			oldProduct.getShelves_list().remove(id);
+
+			Product newProduct = productRepository.consultEntityById(shelf.getProduct().getId());
+			if (newProduct != null) {
+				newProduct.getShelves_list().add(id);
+				shelf.setProduct(newProduct);
+
+			}
+		}
+		shelfRepository1.editEntityById(id, shelf);
+		return shelf;
+
+	}
+}

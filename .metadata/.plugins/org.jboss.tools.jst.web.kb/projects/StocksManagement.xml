@@ -10,8 +10,8 @@
  <validation>
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core"/>
-  <core validator-id="jboss.jsf.core"/>
   <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
   <el>
    <linked-el length="21" name="%0" offset="723" path="%1"/>
    <linked-el length="21" name="%2" offset="723" path="%1"/>

@@ -69,4 +69,8 @@ public class ShelfBusiness {
 		return shelf;
 
 	}
+	public ArrayList<Long>  consultListOfShelvesByProductId(long id) {
+		Product product = productRepository.consultEntityById(id);
+		return product.getShelves_list();
+	}
 }

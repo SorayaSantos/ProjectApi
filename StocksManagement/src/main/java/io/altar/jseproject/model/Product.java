@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Product extends Entity{
 	private static final long serialVersionUID=1L;
 	
-	private ArrayList<Long> shelves_list= new ArrayList<Long>();
+	private ArrayList<Long> shelves_list;
 	private double discount;
 	private double iva;
 	private double pvp;

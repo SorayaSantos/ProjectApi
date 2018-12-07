@@ -1,5 +1,6 @@
 package io.altar.jseproject.services;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.ws.rs.Consumes;
@@ -58,5 +59,11 @@ public class ShelfServices {
 	public Shelf editShelfById(Shelf shelf) {
 		shelfBusiness.editShelfById(shelf);
 		return shelf;
+	}
+	@GET
+	@Path("/product/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<Long>  consultListOfShelvesByProductId(@PathParam("id") long id) {
+		return shelfBusiness.consultListOfShelvesByProductId(id);
 	}
 }

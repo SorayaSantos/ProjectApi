@@ -1,5 +1,6 @@
 package io.altar.jseproject.services;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.ws.rs.Consumes;
@@ -53,4 +54,6 @@ public class ProductServices {
 		productBusiness.editProductById(product);
 		return product;
 	}
+	
+
 }

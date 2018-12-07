@@ -1,0 +1,253 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-07 15:07:42.370
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-07 15:08:04.925
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:40:56.901
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:40:56.901
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:40:56.902
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:40:56.902
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:41:13.126
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.126
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.126
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.126
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:41:13.394
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.394
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.394
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:41:13.394
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-07 16:41:13.400
+!MESSAGE Module StocksManagement on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:48:04.927
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:48:04.927
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:48:04.927
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:48:04.927
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:50:15.660
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:15.660
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:15.660
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:15.660
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 16:50:25.594
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:25.594
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:25.594
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 16:50:25.594
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:22:54.478
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:22:54.478
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:22:54.478
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:22:54.478
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:23:59.412
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:23:59.412
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:23:59.412
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:23:59.412
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:24:06.790
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:06.790
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:06.790
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:06.790
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:24:22.556
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:22.556
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:22.556
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:24:22.556
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:25:07.367
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:07.367
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:07.367
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:07.367
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:25:15.425
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:15.425
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:15.425
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:25:15.425
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:27:30.701
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:27:30.701
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:27:30.701
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:27:30.701
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:30:41.912
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:30:41.912
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:30:41.912
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:30:41.912
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:31:33.479
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:33.479
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:33.479
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:33.479
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:31:45.453
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:45.453
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:45.453
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:31:45.453
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:32:06.102
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:06.102
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:06.102
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:06.102
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:32:24.680
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:24.680
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:24.680
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:32:24.680
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:34:20.552
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:34:20.552
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:34:20.552
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:34:20.552
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:37:27.836
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:37:27.836
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:37:27.836
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:37:27.836
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:38:25.492
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:38:25.492
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:38:25.492
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:38:25.492
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:41:53.611
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:41:53.611
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:41:53.612
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:41:53.612
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:42:08.101
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:08.101
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:08.101
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:08.101
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:42:36.595
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:36.595
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:36.595
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:42:36.595
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:43:50.573
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:43:50.573
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:43:50.573
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:43:50.573
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:54:34.235
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:54:34.235
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:54:34.235
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:54:34.235
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-07 17:56:45.481
+!MESSAGE Full publish failed for module StocksManagement
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:56:45.481
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/altar/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:56:45.481
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/io/.DS_Store
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-07 17:56:45.481
+!MESSAGE Error reading file /Users/s4/Desktop/Java/ProjectApi/StocksManagement/target/classes/.DS_Store

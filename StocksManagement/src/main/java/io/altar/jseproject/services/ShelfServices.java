@@ -53,10 +53,10 @@ public class ShelfServices {
 		return "healthy";
 	}
 	@PUT
-	@Path("/{id}")
+	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Shelf editShelfById(@PathParam("id") long id, Shelf shelf) {
-		shelfBusiness.editShelfById(id, shelf);
+	public Shelf editShelfById(Shelf shelf) {
+		shelfBusiness.editShelfById(shelf);
 		return shelf;
 	}
 }

@@ -50,9 +50,9 @@ public class ShelfBusiness {
 		shelfRepository1.removeEntityById(id);
 	}
 
-	public Shelf editShelfById(long id, Shelf shelf) {
+	public Shelf editShelfById(Shelf shelf) {
 		Product oldProduct = null;
-
+		long id=shelf.getId();
 		Shelf shelfToBeChanged = shelfRepository1.consultEntityById(id);
 
 		if (shelfToBeChanged.getProduct() != null) {
@@ -63,7 +63,6 @@ public class ShelfBusiness {
 			if (newProduct != null) {
 				newProduct.getShelves_list().add(id);
 				shelf.setProduct(newProduct);
-
 			}
 		}
 		shelfRepository1.editEntityById(id, shelf);

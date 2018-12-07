@@ -47,10 +47,10 @@ public class ProductServices {
 		return "Product deleted";
 	}
 	@PUT
-	@Path("/{id}")
+	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product editProductById(@PathParam("id") long id, Product product) {
-		productBusiness.editProductById(id, product);
+	public Product editProductById(Product product) {
+		productBusiness.editProductById(product);
 		return product;
 	}
 }

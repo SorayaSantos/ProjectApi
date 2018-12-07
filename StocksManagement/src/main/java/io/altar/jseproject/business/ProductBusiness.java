@@ -32,7 +32,8 @@ public class ProductBusiness {
 	public void deleteProductById(long id) {
 		productRepository1.removeEntityById(id);
 	}
-	public Product editProductById(long id,Product product) {
+	public Product editProductById(Product product) {
+		long id=product.getId();
 		ArrayList<Long> oldShelvesList;
 		ArrayList<Long> newShelvesList;
 		newShelvesList=product.getShelves_list();

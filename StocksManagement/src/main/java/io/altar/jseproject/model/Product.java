@@ -5,11 +5,12 @@ import java.util.ArrayList;
 public class Product extends Entity{
 	private static final long serialVersionUID=1L;
 	
-	private ArrayList<Long> shelves_list;
+	private ArrayList<Long> shelves_list=new ArrayList<Long>();
 	private double discount;
 	private double iva;
 	private double pvp;
 	public Product(){}
+
 
 	public Product(ArrayList<Long> shelves_list, double discount, double iva, double pvp) {
 		super();
@@ -19,12 +20,6 @@ public class Product extends Entity{
 		this.pvp = pvp;
 	}
 	
-	public Product(double discount, double iva, double pvp) {
-		super();
-		this.discount = discount;
-		this.iva = iva;
-		this.pvp = pvp;
-	}
 
 	public ArrayList<Long> getShelves_list() {
 		return shelves_list;

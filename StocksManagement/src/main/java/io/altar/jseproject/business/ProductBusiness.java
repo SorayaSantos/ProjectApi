@@ -27,17 +27,12 @@ public class ProductBusiness {
 		if (shelvesList != null && shelvesList.size() > 0) {
 
 			for (Long idShelf : shelvesList) {
-				if (shelfRepository1.consultEntityById(idShelf) != null) {
-					Shelf shelf = shelfRepository1.consultEntityById(idShelf);
+				Shelf shelf = shelfRepository1.consultEntityById(idShelf);
+				if (shelfRepository1.consultEntityById(idShelf) != null&&shelf.getProduct()==null) {
 					shelf.setProduct(product);
-					product.setShelves_list(shelvesList);
 				} else {
-					newShelvesList.add(idShelf);
-				}
-			}
-			if (newShelvesList.size() > 0) {
-				for (Long idShelf : newShelvesList) {
-					shelvesList.remove(idShelf);
+					newShelvesList.remove(idShelf);
+					product.setShelves_list(newShelvesList);
 				}
 			}
 		}

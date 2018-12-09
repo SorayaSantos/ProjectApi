@@ -1,0 +1,8 @@
+package io.altar.jseproject.business;
+
+public class ModelMapperAplication {
+
+	public void modelMapperApp() {
+		
+	}
+}

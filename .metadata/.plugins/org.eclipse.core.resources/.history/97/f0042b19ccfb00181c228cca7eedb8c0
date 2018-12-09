@@ -1,0 +1,21 @@
+package io.altar.jseproject.business;
+
+import java.util.Collection;
+
+import org.modelmapper.ModelMapper;
+
+import io.altar.jseproject.dto.ProductDTO;
+import io.altar.jseproject.model.Product;
+
+public class ModelMapperAplication {
+
+	public Collection<ProductDTO> modelMapperApp(Product product) {
+		
+		ModelMapper productModelMapper = new ModelMapper();
+		ProductDTO productDTO = new ProductDTO();
+		
+		productModelMapper.map(product,productDTO);
+		
+		return productModelMapper;
+	}
+}

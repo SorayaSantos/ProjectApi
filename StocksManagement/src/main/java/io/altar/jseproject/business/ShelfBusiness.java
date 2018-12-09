@@ -23,10 +23,10 @@ public class ShelfBusiness {
 
 				shelf.setProduct(product);
 
-				ArrayList<Long> shelvesList;
-				shelvesList = product.getShelves_list();
-				shelvesList.add(shelf.getId());
-				product.setShelves_list(shelvesList);
+				ArrayList<Shelf> shelvesList;
+				shelvesList = product.getShelvesList();
+				shelvesList.add(shelf);
+				product.setShelvesList(shelvesList);
 			} else {
 				shelf.setProduct(null);
 			}
@@ -49,7 +49,7 @@ public class ShelfBusiness {
 		Shelf shelf = shelfRepository1.consultEntityById(id);
 		Product product = shelf.getProduct();
 		if (product != null) {
-			product.getShelves_list().remove(id);
+			product.getShelvesList().remove(shelf);
 		}
 		shelfRepository1.removeEntityById(id);
 
@@ -62,11 +62,11 @@ public class ShelfBusiness {
 
 		if (shelfToBeChanged.getProduct() != null) {
 			oldProduct = shelfToBeChanged.getProduct();
-			oldProduct.getShelves_list().remove(id);
+			oldProduct.getShelvesList().remove(shelf);
 		}
 		Product newProduct = productRepository.consultEntityById(shelf.getProduct().getId());
 		if (newProduct != null) {
-			newProduct.getShelves_list().add(id);
+			newProduct.getShelvesList().add(shelf);
 			shelf.setProduct(newProduct);
 		}
 		shelfRepository1.editEntityById(id, shelf);
@@ -74,8 +74,8 @@ public class ShelfBusiness {
 
 	}
 
-	public ArrayList<Long> consultListOfShelvesByProductId(long id) {
+	public ArrayList<Shelf> consultListOfShelvesByProductId(long id) {
 		Product product = productRepository.consultEntityById(id);
-		return product.getShelves_list();
+		return product.getShelvesList();
 	}
 }

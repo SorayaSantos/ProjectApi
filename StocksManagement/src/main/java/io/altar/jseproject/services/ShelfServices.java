@@ -63,7 +63,7 @@ public class ShelfServices {
 	@GET
 	@Path("/product/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public ArrayList<Long>  consultListOfShelvesByProductId(@PathParam("id") long id) {
+	public ArrayList<Shelf>  consultListOfShelvesByProductId(@PathParam("id") long id) {
 		return shelfBusiness.consultListOfShelvesByProductId(id);
 	}
 }

@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import io.altar.jseproject.dto.ProductDTO;
 import io.altar.jseproject.dto.ShelfDTO;
 import io.altar.jseproject.model.Product;
 import io.altar.jseproject.model.Shelf;
@@ -43,18 +42,14 @@ public class ShelfBusiness {
 		Collection<Shelf> shelves= shelfRepository1.consultEntities();
 		List<ShelfDTO> shelvesDTO=new ArrayList<>();
 		for (Shelf shelf :shelves) {
-			Product product = shelf.getProduct();
-			ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice()));
+			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProduct(),shelf.getPrice()));
 		}
 		return shelvesDTO;
 	}
 
 	public ShelfDTO consultShelfById(long id) {
 		Shelf shelf = shelfRepository1.consultEntityById(id);
-		Product product = shelf.getProduct();
-		ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice());
+		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProduct(),shelf.getPrice());
 	}
 
 	public void deleteShelfById(long id) {

@@ -45,16 +45,14 @@ public class ShelfBusiness {
 		for (Shelf shelf :shelves) {
 			Product product = shelf.getProduct();
 			ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice()));
+			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProduct(),shelf.getPrice()));
 		}
 		return shelvesDTO;
 	}
 
 	public ShelfDTO consultShelfById(long id) {
 		Shelf shelf = shelfRepository1.consultEntityById(id);
-		Product product = shelf.getProduct();
-		ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice());
+		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProduct(),shelf.getPrice());
 	}
 
 	public void deleteShelfById(long id) {

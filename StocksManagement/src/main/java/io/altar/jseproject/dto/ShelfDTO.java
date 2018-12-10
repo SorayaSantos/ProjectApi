@@ -2,7 +2,7 @@ package io.altar.jseproject.dto;
 
 import io.altar.jseproject.model.Product;
 
-public class ShelfDTO {
+public class ShelfDTO extends EntityDTO{
 	private long capacity;
 	private Product product;
 	private double price;

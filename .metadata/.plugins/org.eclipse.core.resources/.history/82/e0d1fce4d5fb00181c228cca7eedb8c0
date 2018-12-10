@@ -1,0 +1,22 @@
+package io.altar.jseproject.business;
+
+import java.util.Collection;
+import java.util.LinkedHashMap;
+
+import org.modelmapper.ModelMapper;
+
+import io.altar.jseproject.dto.ProductDTO;
+import io.altar.jseproject.model.Product;
+
+public class ModelMapperAplication {
+
+	public ProductDTO modelMapperApp(LinkedHashMap<Long, Product> map) {
+		
+		ModelMapper productModelMapper = new ModelMapper();
+		ProductDTO productDTO = new ProductDTO();
+		
+		productModelMapper.map(product,productDTO);
+		
+		return productDTO;
+	}
+}

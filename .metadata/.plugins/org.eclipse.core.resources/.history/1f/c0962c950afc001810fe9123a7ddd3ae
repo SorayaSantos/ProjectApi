@@ -1,0 +1,31 @@
+package io.altar.jseproject.business;
+
+import org.modelmapper.ModelMapper;
+
+import io.altar.jseproject.dto.EntityDTO;
+import io.altar.jseproject.dto.ProductDTO;
+import io.altar.jseproject.dto.ShelfDTO;
+import io.altar.jseproject.model.Product;
+import io.altar.jseproject.model.Shelf;
+
+public class ModelMapperAplication {
+
+	public EntityDTO modelMapperApp(Product product) {
+		
+		ModelMapper productModelMapper = new ModelMapper();
+		ProductDTO productDTO = new ProductDTO();
+		
+		productModelMapper.map(product,productDTO);
+		
+		return productDTO;
+	}
+	public ShelfDTO modelMapperApp(Shelf shelf) {
+		
+		ModelMapper shelfModelMapper = new ModelMapper();
+		ShelfDTO shelfDTO = new ShelfDTO();
+		
+		shelfModelMapper.map(shelf,shelfDTO);
+		
+		return shelfDTO;
+	}
+}

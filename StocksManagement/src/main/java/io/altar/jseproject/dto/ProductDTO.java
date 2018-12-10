@@ -1,6 +1,6 @@
 package io.altar.jseproject.dto;
 
-public class ProductDTO {
+public class ProductDTO extends EntityDTO{
 	
 	private double discount;
 	private double iva;

@@ -10,9 +10,18 @@
 <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.business.Business"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
-<fullyQualifiedTypeName name="io.altar.jseproject.model.Shelf"/>
 <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
 <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
 <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
+<fullyQualifiedTypeName name="org.modelmapper.ModelMapper"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Product"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Shelf"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.dto.ShelfDTO"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.Entity"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.business.ModelMapperAplication"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.business.ModelMapperApplication"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.dto.EntityDTO"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.dto.ProductDTO"/>
 </qualifiedTypeNameHistroy>

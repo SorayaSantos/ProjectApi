@@ -1,9 +1,10 @@
 package io.altar.jseproject.business;
 
+import java.util.List;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Scanner;
 
+import io.altar.jseproject.dto.ProductDTO;
 import io.altar.jseproject.model.Product;
 import io.altar.jseproject.model.Shelf;
 import io.altar.jseproject.repositories.ProductRepository;
@@ -20,7 +21,7 @@ public class ProductBusiness {
 		ArrayList<Shelf> newShelvesList = new ArrayList<Shelf>();
 		shelvesList = product.getShelvesList();
 
-		if (shelvesList != null && shelvesList.size() > 0) {
+		if (shelvesList.size() > 0) {
 			for (Shelf shelf : shelvesList) {
 				newShelvesList.add(shelf);
 			}
@@ -38,17 +39,24 @@ public class ProductBusiness {
 
 	}
 
-	public Collection<Product> consultProducts() {
+	public List<ProductDTO> consultProducts() {
 
-		return productRepository1.consultEntities();
+		Collection<Product> products= productRepository1.consultEntities();
+		List<ProductDTO> productsDTO=new ArrayList<>();
+
+		for (Product product :products) {
+			productsDTO.add(new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp()));
+		}
+			return productsDTO;	
 	}
 
-	public Product consultProductById(long id) {
-		return productRepository1.consultEntityById(id);
+	public ProductDTO consultProductById(long id) {
+		Product product = productRepository1.consultEntityById(id);
+		return new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
 	}
 
 	public void deleteProductById(long id) {
-		ArrayList<Shelf> shelvesList;
+		List<Shelf> shelvesList;
 		shelvesList = productRepository1.consultEntityById(id).getShelvesList();
 		if (shelvesList != null) {
 			for (Shelf shelf : shelvesList) {
@@ -58,7 +66,7 @@ public class ProductBusiness {
 		productRepository1.removeEntityById(id);
 	}
 
-	public Product editProductById(Product product) {
+	public void editProductById(Product product) {
 		long id = product.getId();
 		ArrayList<Shelf> oldShelvesList;
 		ArrayList<Shelf> newShelvesList;
@@ -72,6 +80,5 @@ public class ProductBusiness {
 			shelf.setProduct(product);
 		}
 		productRepository1.editEntityById(id, product);
-		return product;
 	}
 }

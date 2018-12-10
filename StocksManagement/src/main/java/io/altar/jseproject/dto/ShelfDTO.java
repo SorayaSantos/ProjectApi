@@ -1,27 +1,30 @@
 package io.altar.jseproject.dto;
 
-import io.altar.jseproject.model.Product;
+import io.altar.jseproject.model.Entity;
+public class ShelfDTO extends Entity{
+	private static final long serialVersionUID=1L;
 
-public class ShelfDTO extends EntityDTO{
+	private long id;
 	private long capacity;
-	private Product product;
+	private ProductDTO productDTO;
 	private double price;
 	public ShelfDTO(){}
 	
-	public ShelfDTO(long capacity, Product product, double price) {
+	public ShelfDTO(long id,long capacity, ProductDTO productDTO, double price) {
 		super();
-		
+		this.id = id;
 		this.capacity = capacity;
-		this.product = product;
+		this.productDTO = productDTO;
 		this.price = price;
 	}
 
-	public ShelfDTO(long capacity, double price) {
-		super();
-		this.capacity = capacity;
-		this.price = price;
+	public long getId() {
+		return id;
 	}
 
+	public void setId(long id) {
+		this.id = id;
+	}
 	public long getCapacity() {
 		return capacity;
 	}
@@ -30,12 +33,12 @@ public class ShelfDTO extends EntityDTO{
 		this.capacity = capacity;
 	}
 
-	public Product getProduct() {
-		return product;
+	public ProductDTO getProduct() {
+		return productDTO;
 	}
 
-	public void setProduct(Product product) {
-		this.product = product;
+	public void setProductDTO(ProductDTO productDTO) {
+		this.productDTO = productDTO;
 	}
 
 	public void setPrice(double price) {
@@ -48,11 +51,11 @@ public class ShelfDTO extends EntityDTO{
 
 	@Override
 	public String toString() {
-		if(product==null){
+		if(productDTO==null){
 			return " Shelf [capacity=" + capacity + ", product=none product stored" + ", price=" + price + "]";
 		}
 		else{
-			return " Shelf [capacity=" + capacity + ", product=" + product.toString() + ", price=" + price + "]";
+			return " Shelf [capacity=" + capacity + ", product=" + productDTO.toString() + ", price=" + price + "]";
 		}
 	}
 }

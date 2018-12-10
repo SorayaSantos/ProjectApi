@@ -1,20 +1,17 @@
 package io.altar.jseproject.repositories;
 
-import java.util.ArrayList;
 import java.util.Collection;
 //import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import io.altar.jseproject.business.ModelMapperApplication;
-import io.altar.jseproject.dto.EntityDTO;
+
 import io.altar.jseproject.model.Entity;
 
 public abstract class EntityRepository<T extends Entity>{
 
 	
 	private Map<Long, T> map = new LinkedHashMap<Long, T>();
-	ModelMapperApplication modelmapperApp = new ModelMapperApplication();
 	private long actualId = 0;
 
 
@@ -29,13 +26,7 @@ public abstract class EntityRepository<T extends Entity>{
 		return newId;
 	}
 	public Collection<T> consultEntities() {
-		Collection<T> values = map.values();
-		Collection<T> valuesDTO=new ArrayList<T>();
-
-		for (T value:values) {
-			valuesDTO.add(modelmapperApp.modelMapperApp(value));
-		}
-			return valuesDTO;	
+		return map.values();
 	}
 	public T consultEntityById(long id){
 		return map.get(id);

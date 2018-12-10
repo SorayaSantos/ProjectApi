@@ -1,8 +1,10 @@
 package io.altar.jseproject.business;
 
+import java.util.List;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import io.altar.jseproject.dto.ShelfDTO;
 import io.altar.jseproject.model.Product;
 import io.altar.jseproject.model.Shelf;
 import io.altar.jseproject.repositories.ShelfRepository;
@@ -36,13 +38,18 @@ public class ShelfBusiness {
 		}
 	}
 
-	public Collection<Shelf> consultShelves() {
-
-		return shelfRepository1.consultEntities();
+	public List<ShelfDTO> consultShelves() {
+		Collection<Shelf> shelves= shelfRepository1.consultEntities();
+		List<ShelfDTO> shelvesDTO=new ArrayList<>();
+		for (Shelf shelf :shelves) {
+			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProductDTO(),shelf.getPrice()));
+		}
+		return shelvesDTO;
 	}
 
-	public Shelf consultShelfById(long id) {
-		return shelfRepository1.consultEntityById(id);
+	public ShelfDTO consultShelfById(long id) {
+		Shelf shelf = shelfRepository1.consultEntityById(id);
+		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),shelf.getProduct(),shelf.getPrice());
 	}
 
 	public void deleteShelfById(long id) {
@@ -74,7 +81,7 @@ public class ShelfBusiness {
 
 	}
 
-	public ArrayList<Shelf> consultListOfShelvesByProductId(long id) {
+	public List<Shelf> consultListOfShelvesByProductId(long id) {
 		Product product = productRepository.consultEntityById(id);
 		return product.getShelvesList();
 	}

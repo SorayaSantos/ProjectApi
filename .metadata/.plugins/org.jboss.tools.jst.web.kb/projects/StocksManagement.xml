@@ -5,6 +5,7 @@
  <paths>
   <path value="/Users/s4/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
   <path value="/Users/s4/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="/Users/s4/.m2/repository/org/modelmapper/modelmapper/1.1.0/modelmapper-1.1.0.jar"/>
   <path value="/Users/s4/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
  </paths>
  <validation>
@@ -13,8 +14,8 @@
   <core validator-id="batch-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="21" name="%0" offset="723" path="%1"/>
-   <linked-el length="21" name="%2" offset="723" path="%1"/>
+   <linked-el length="21" name="%0" offset="856" path="%1"/>
+   <linked-el length="21" name="%2" offset="856" path="%1"/>
   </el>
  </validation>
  <aliases>

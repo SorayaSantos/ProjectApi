@@ -1,6 +1,9 @@
 path=/Users/s4/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
 size=62983
 archive=0
+path=/Users/s4/.m2/repository/org/modelmapper/modelmapper/1.1.0/modelmapper-1.1.0.jar
+size=551309
+archive=0
 path=/Users/s4/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
 size=521991
 archive=0

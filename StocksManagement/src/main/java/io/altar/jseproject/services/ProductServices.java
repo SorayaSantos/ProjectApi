@@ -1,7 +1,6 @@
 package io.altar.jseproject.services;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.List;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -14,6 +13,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import io.altar.jseproject.business.ProductBusiness;
+import io.altar.jseproject.dto.ProductDTO;
 import io.altar.jseproject.model.Product;
 
 @Path("/products")
@@ -24,20 +24,19 @@ public class ProductServices {
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product createProduct(Product product) {
+	public void createProduct(Product product) {
 		productBusiness.createProduct(product);
-		return product;
 	}
 	@GET
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Collection<Product> consultProducts() {
+	public List<ProductDTO> consultProducts() {
 		return productBusiness.consultProducts();
 	}
 	@GET
 	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product consultProductById(@PathParam("id") long id) {
+	public ProductDTO consultProductById(@PathParam("id") long id) {
 		return productBusiness.consultProductById(id);
 	}
 	@DELETE
@@ -50,9 +49,8 @@ public class ProductServices {
 	@PUT
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product editProductById(Product product) {
+	public void editProductById(Product product) {
 		productBusiness.editProductById(product);
-		return product;
 	}
 	
 

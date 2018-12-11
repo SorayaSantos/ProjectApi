@@ -1,3 +1,4 @@
+/Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/model/BaseEntity.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/model/Product.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/services/ProductServices.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/repositories/ProductRepository.java
@@ -6,7 +7,6 @@
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/repositories/EntityRepository.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/business/ProductBusiness.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/business/ShelfBusiness.java
-/Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/model/Entity.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/dto/ShelfDTO.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/dto/ProductDTO.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/repositories/ShelfRepository.java

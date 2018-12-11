@@ -1,7 +1,0 @@
-!SESSION 
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-10 15:13:49.791
-!MESSAGE Server Starting
-
-!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-10 15:14:13.791
-!MESSAGE Server Startup Succeeded

@@ -5,23 +5,42 @@
  <paths>
   <path value="/Users/s4/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
   <path value="/Users/s4/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
-  <path value="/Users/s4/.m2/repository/org/modelmapper/modelmapper/1.1.0/modelmapper-1.1.0.jar"/>
   <path value="/Users/s4/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%1;%3;" path="%2"/>
+   <linked-resource name="%4;" path="%1"/>
+   <linked-resource name="%5;" path="%3"/>
+   <linked-resource name="%1;%3;" path="%6"/>
+  </core>
   <core validator-id="batch-verification"/>
   <core validator-id="jboss.jsf.core"/>
   <el>
-   <linked-el length="21" name="%0" offset="856" path="%1"/>
-   <linked-el length="21" name="%2" offset="856" path="%1"/>
+   <linked-el length="21" name="%7" offset="719" path="%8"/>
+   <linked-el length="21" name="%9" offset="719" path="%8"/>
   </el>
  </validation>
  <aliases>
-  <alias path="/StocksManagement/pom.xml" value="%1"/>
-  <alias path="project.artifactId" value="%0"/>
-  <alias path="project" value="%2"/>
+  <alias path="/StocksManagement/pom.xml" value="%8"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/business/ProductBusiness.java" value="%1"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/repositories/ProductRepository.java" value="%0"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/services/ShelfServices.java" value="%5"/>
+  <alias path="project.artifactId" value="%7"/>
+  <alias path="project" value="%9"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/repositories/ShelfRepository.java" value="%2"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/business/ShelfBusiness.java" value="%3"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/services/ProductServices.java" value="%4"/>
+  <alias
+   path="/StocksManagement/src/main/java/io/altar/jseproject/repositories/EntityRepository.java" value="%6"/>
  </aliases>
  <includes/>
  <uris/>

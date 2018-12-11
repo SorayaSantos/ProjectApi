@@ -16,7 +16,6 @@
 <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
 <fullyQualifiedTypeName name="org.modelmapper.ModelMapper"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.model.Product"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.model.Shelf"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.dto.ShelfDTO"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.model.Entity"/>
@@ -24,4 +23,21 @@
 <fullyQualifiedTypeName name="io.altar.jseproject.business.ModelMapperApplication"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.dto.EntityDTO"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.dto.ProductDTO"/>
+<fullyQualifiedTypeName name="javax.persistence.MappedSuperclass"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.repositories.ShelfRepository"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="io.altar.jseproject.model.BaseEntity"/>
 </qualifiedTypeNameHistroy>

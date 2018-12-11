@@ -1,4 +1,3 @@
-io/altar/jseproject/model/Entity.class
 io/altar/jseproject/repositories/ProductRepository.class
 io/altar/jseproject/model/Product.class
 io/altar/jseproject/model/Shelf.class
@@ -6,6 +5,7 @@ io/altar/jseproject/services/ShelfServices.class
 io/altar/jseproject/dto/ProductDTO.class
 io/altar/jseproject/dto/ShelfDTO.class
 io/altar/jseproject/business/ProductBusiness.class
+io/altar/jseproject/model/BaseEntity.class
 io/altar/jseproject/repositories/ShelfRepository.class
 io/altar/jseproject/services/ProductServices.class
 io/altar/jseproject/App.class

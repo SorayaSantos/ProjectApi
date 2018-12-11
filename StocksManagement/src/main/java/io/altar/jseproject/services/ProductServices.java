@@ -2,6 +2,7 @@ package io.altar.jseproject.services;
 
 import java.util.List;
 
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -18,8 +19,8 @@ import io.altar.jseproject.model.Product;
 
 @Path("/products")
 public class ProductServices {
-
-	ProductBusiness productBusiness = new ProductBusiness();
+	@Inject
+	ProductBusiness productBusiness;
 
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -27,31 +28,31 @@ public class ProductServices {
 	public void createProduct(Product product) {
 		productBusiness.createProduct(product);
 	}
-	@GET
-	@Path("/")
-	@Produces(MediaType.APPLICATION_JSON)
-	public List<ProductDTO> consultProducts() {
-		return productBusiness.consultProducts();
-	}
-	@GET
-	@Path("/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
-	public ProductDTO consultProductById(@PathParam("id") long id) {
-		return productBusiness.consultProductById(id);
-	}
-	@DELETE
-	@Path("/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
-	public String deleteProductById(@PathParam("id") long id) {
-		productBusiness.deleteProductById(id);
-		return "Product deleted";
-	}
-	@PUT
-	@Path("/")
-	@Produces(MediaType.APPLICATION_JSON)
-	public void editProductById(Product product) {
-		productBusiness.editProductById(product);
-	}
+//	@GET
+//	@Path("/")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public List<ProductDTO> consultProducts() {
+//		return productBusiness.consultProducts();
+//	}
+//	@GET
+//	@Path("/{id}")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public ProductDTO consultProductById(@PathParam("id") long id) {
+//		return productBusiness.consultProductById(id);
+//	}
+//	@DELETE
+//	@Path("/{id}")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public String deleteProductById(@PathParam("id") long id) {
+//		productBusiness.deleteProductById(id);
+//		return "Product deleted";
+//	}
+//	@PUT
+//	@Path("/")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public void editProductById(Product product) {
+//		productBusiness.editProductById(product);
+//	}
 	
 
 }

@@ -23,8 +23,9 @@ public class ShelfServices {
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void createShelf(Shelf shelf) {
+	public Shelf createShelf(Shelf shelf) {
 		shelfBusiness.createShelf(shelf);
+		return shelf;
 	}
 	@GET
 	@Path("/")
@@ -60,7 +61,7 @@ public class ShelfServices {
 	@GET
 	@Path("/product/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Shelf>  consultListOfShelvesByProductId(@PathParam("id") long id) {
+	public List<ShelfDTO>  consultListOfShelvesByProductId(@PathParam("id") long id) {
 		return shelfBusiness.consultListOfShelvesByProductId(id);
 	}
 }

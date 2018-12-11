@@ -45,14 +45,14 @@ public class ProductBusiness {
 		List<ProductDTO> productsDTO=new ArrayList<>();
 
 		for (Product product :products) {
-			productsDTO.add(new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp()));
+			productsDTO.add(new ProductDTO(product.getDiscount(),product.getIva(),product.getPvp()));
 		}
 			return productsDTO;	
 	}
 
 	public ProductDTO consultProductById(long id) {
 		Product product = productRepository1.consultEntityById(id);
-		return new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
+		return new ProductDTO(product.getDiscount(),product.getIva(),product.getPvp());
 	}
 
 	public void deleteProductById(long id) {

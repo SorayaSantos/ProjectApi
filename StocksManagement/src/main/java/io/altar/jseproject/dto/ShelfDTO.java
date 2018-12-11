@@ -1,30 +1,26 @@
 package io.altar.jseproject.dto;
 
-import io.altar.jseproject.model.Entity;
-public class ShelfDTO extends Entity{
-	private static final long serialVersionUID=1L;
+public class ShelfDTO{
 
-	private long id;
 	private long capacity;
 	private ProductDTO productDTO;
 	private double price;
 	public ShelfDTO(){}
 	
-	public ShelfDTO(long id,long capacity, ProductDTO productDTO, double price) {
+	public ShelfDTO(long capacity, ProductDTO productDTO, double price) {
 		super();
-		this.id = id;
 		this.capacity = capacity;
 		this.productDTO = productDTO;
 		this.price = price;
 	}
+	
 
-	public long getId() {
-		return id;
+	public ShelfDTO( long capacity, double price) {
+		super();
+		this.capacity = capacity;
+		this.price = price;
 	}
 
-	public void setId(long id) {
-		this.id = id;
-	}
 	public long getCapacity() {
 		return capacity;
 	}

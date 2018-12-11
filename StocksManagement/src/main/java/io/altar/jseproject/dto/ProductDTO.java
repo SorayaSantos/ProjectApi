@@ -1,31 +1,20 @@
 package io.altar.jseproject.dto;
 
-import io.altar.jseproject.model.Entity;
+public class ProductDTO{
 
-public class ProductDTO extends Entity{
-	private static final long serialVersionUID=1L;
-
-	private long id;
 	private double discount;
 	private double iva;
 	private double pvp;
 	public ProductDTO(){}
 
 
-	public ProductDTO(long id, double discount, double iva, double pvp) {
+	public ProductDTO(double discount, double iva, double pvp) {
 		super();
-		this.id = id;
 		this.discount = discount;
 		this.iva = iva;
 		this.pvp = pvp;
 	}
-	public long getId() {
-		return id;
-	}
 
-	public void setId(long id) {
-		this.id = id;
-	}
 	public double getDiscount() {
 		return discount;
 	}

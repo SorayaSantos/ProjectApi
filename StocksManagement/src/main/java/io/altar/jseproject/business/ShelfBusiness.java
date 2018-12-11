@@ -40,12 +40,17 @@ public class ShelfBusiness {
 	}
 
 	public List<ShelfDTO> consultShelves() {
-		Collection<Shelf> shelves= shelfRepository1.consultEntities();
-		List<ShelfDTO> shelvesDTO=new ArrayList<>();
-		for (Shelf shelf :shelves) {
+		Collection<Shelf> shelves = shelfRepository1.consultEntities();
+		List<ShelfDTO> shelvesDTO = new ArrayList<>();
+		for (Shelf shelf : shelves) {
 			Product product = shelf.getProduct();
-			ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-			shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice()));
+			if (product != null) {
+				ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+						product.getPvp());
+				shelvesDTO.add(new ShelfDTO( shelf.getCapacity(), productDTO, shelf.getPrice()));
+			} else {
+				shelvesDTO.add(new ShelfDTO( shelf.getCapacity(), shelf.getPrice()));
+			}
 		}
 		return shelvesDTO;
 	}
@@ -53,8 +58,13 @@ public class ShelfBusiness {
 	public ShelfDTO consultShelfById(long id) {
 		Shelf shelf = shelfRepository1.consultEntityById(id);
 		Product product = shelf.getProduct();
-		ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp());
-		return new ShelfDTO(shelf.getId(),shelf.getCapacity(),productDTO,shelf.getPrice());
+		if (product != null) {
+			ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+					product.getPvp());
+			return new ShelfDTO(shelf.getCapacity(), productDTO, shelf.getPrice());
+		} else {
+			return new ShelfDTO( shelf.getCapacity(), shelf.getPrice());
+		}
 	}
 
 	public void deleteShelfById(long id) {
@@ -86,8 +96,20 @@ public class ShelfBusiness {
 
 	}
 
-	public List<Shelf> consultListOfShelvesByProductId(long id) {
+	public List<ShelfDTO> consultListOfShelvesByProductId(long id) {
 		Product product = productRepository.consultEntityById(id);
-		return product.getShelvesList();
+		ArrayList<ShelfDTO> shelvesListDTO = new ArrayList<ShelfDTO>();
+
+		if (product != null) {
+			ArrayList<Shelf> shelvesList = product.getShelvesList();
+			for (Shelf shelf : shelvesList) {
+				ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+						product.getPvp());
+				ShelfDTO shelfDTO = new ShelfDTO(shelf.getCapacity(),productDTO, shelf.getPrice());
+				shelvesListDTO.add(shelfDTO);
+			}
+		}
+		return shelvesListDTO;
+
 	}
 }

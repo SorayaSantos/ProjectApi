@@ -1,14 +1,15 @@
 package io.altar.jseproject.dto;
 
 public class ShelfDTO{
-
+	private long id;
 	private long capacity;
 	private ProductDTO productDTO;
 	private double price;
 	public ShelfDTO(){}
 	
-	public ShelfDTO(long capacity, ProductDTO productDTO, double price) {
+	public ShelfDTO(long id, long capacity, ProductDTO productDTO, double price) {
 		super();
+		this.id = id;
 		this.capacity = capacity;
 		this.productDTO = productDTO;
 		this.price = price;
@@ -20,7 +21,13 @@ public class ShelfDTO{
 		this.capacity = capacity;
 		this.price = price;
 	}
+	public long getId() {
+		return id;
+	}
 
+	public void setId(long id) {
+		this.id = id;
+	}
 	public long getCapacity() {
 		return capacity;
 	}

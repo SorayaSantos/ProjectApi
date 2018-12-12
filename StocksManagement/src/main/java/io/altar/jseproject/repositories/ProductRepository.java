@@ -12,5 +12,8 @@ public class ProductRepository extends EntityRepository<Product> {
 	private ProductRepository(){
 		
 	}
-
+	@Override
+	protected Class<Product> getTypeOfEntity(){
+		return Product.class;
+	};
 }

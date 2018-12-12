@@ -35,17 +35,21 @@ public abstract class EntityRepository<T extends BaseEntity>{
 	//public Collection<T> consultEntities() {
 		//return map.values();
 	//}
-	//public T consultEntityById(long id){
+	public T consultEntityById(long id){
 		//return map.get(id);
-	//}
-	public void editEntityById( T entity){
+		return entityManager.find(getTypeOfEntity(),id);
+	}
+	public void editEntity( T entity){
 		//map.replace(id,ent);
 		entityManager.merge(entity);
 
 	}
-	public void removeEntityById(T entity){
+	public void removeEntityById(long id){
 		//map.remove(id);
+		T entity = entityManager.find(getTypeOfEntity(),id);
 		entityManager.remove(entity);
 	}
+	
+	protected abstract Class<T> getTypeOfEntity();
 
 }

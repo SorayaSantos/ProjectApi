@@ -1,0 +1,122 @@
+package io.altar.jseproject.business;
+
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.transaction.Transactional;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import io.altar.jseproject.dto.ProductDTO;
+import io.altar.jseproject.dto.ShelfDTO;
+import io.altar.jseproject.model.Product;
+import io.altar.jseproject.model.Shelf;
+import io.altar.jseproject.repositories.ShelfRepository;
+import io.altar.jseproject.repositories.ProductRepository;
+
+public class ShelfBusiness {
+	@Inject
+	ShelfRepository shelfRepository1;
+	
+	//static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
+	//static ProductRepository productRepository = ProductRepository.getInstance();
+	//static ProductBusiness productBusiness = new ProductBusiness();
+	@Transactional
+	public void createShelf(Shelf shelf) {
+
+//		if (shelf.getProduct() != null) {
+//			Product product = productRepository.consultEntityById(shelf.getProduct().getId());
+//			if (product != null) {
+//
+//				shelfRepository1.createEntities(shelf);
+//
+//				shelf.setProduct(product);
+//
+//				ArrayList<Shelf> shelvesList;
+//				shelvesList = product.getShelvesList();
+//				shelvesList.add(shelf);
+//				product.setShelvesList(shelvesList);
+//			} else {
+//				shelf.setProduct(null);
+//			}
+//
+//		} else {
+			shelfRepository1.createEntities(shelf);
+//		}
+	}
+//
+//	public List<ShelfDTO> consultShelves() {
+//		Collection<Shelf> shelves = shelfRepository1.consultEntities();
+//		List<ShelfDTO> shelvesDTO = new ArrayList<>();
+//		for (Shelf shelf : shelves) {
+//			Product product = shelf.getProduct();
+//			if (product != null) {
+//				ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+//						product.getPvp());
+//				shelvesDTO.add(new ShelfDTO( shelf.getCapacity(), productDTO, shelf.getPrice()));
+//			} else {
+//				shelvesDTO.add(new ShelfDTO( shelf.getCapacity(), shelf.getPrice()));
+//			}
+//		}
+//		return shelvesDTO;
+//	}
+
+//	public ShelfDTO consultShelfById(long id) {
+//		Shelf shelf = shelfRepository1.consultEntityById(id);
+//		Product product = shelf.getProduct();
+//		if (product != null) {
+//			ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+//					product.getPvp());
+//			return new ShelfDTO(shelf.getCapacity(), productDTO, shelf.getPrice());
+//		} else {
+//			return new ShelfDTO( shelf.getCapacity(), shelf.getPrice());
+//		}
+//	}
+
+	public void deleteShelf(long id) {
+//		Shelf shelf = shelfRepository1.consultEntityById(id);
+//		Product product = shelf.getProduct();
+//		if (product != null) {
+//			product.getShelvesList().remove(shelf);
+//		}
+		shelfRepository1.removeEntity(id);
+
+	}
+
+//	public Shelf editShelfById(Shelf shelf) {
+//		Product oldProduct = null;
+//		long id = shelf.getId();
+//		Shelf shelfToBeChanged = shelfRepository1.consultEntityById(id);
+//
+//		if (shelfToBeChanged.getProduct() != null) {
+//			oldProduct = shelfToBeChanged.getProduct();
+//			oldProduct.getShelvesList().remove(shelf);
+//		}
+//		Product newProduct = productRepository.consultEntityById(shelf.getProduct().getId());
+//		if (newProduct != null) {
+//			newProduct.getShelvesList().add(shelf);
+//			shelf.setProduct(newProduct);
+//		}
+//		shelfRepository1.editEntityById(id, shelf);
+//		return shelf;
+//
+//	}
+
+//	public List<ShelfDTO> consultListOfShelvesByProductId(long id) {
+//		Product product = productRepository.consultEntityById(id);
+//		ArrayList<ShelfDTO> shelvesListDTO = new ArrayList<ShelfDTO>();
+//
+//		if (product != null) {
+//			ArrayList<Shelf> shelvesList = product.getShelvesList();
+//			for (Shelf shelf : shelvesList) {
+//				ProductDTO productDTO = new ProductDTO(product.getDiscount(), product.getIva(),
+//						product.getPvp());
+//				ShelfDTO shelfDTO = new ShelfDTO(shelf.getCapacity(),productDTO, shelf.getPrice());
+//				shelvesListDTO.add(shelfDTO);
+//			}
+//		}
+//		return shelvesListDTO;
+//
+//	}
+}

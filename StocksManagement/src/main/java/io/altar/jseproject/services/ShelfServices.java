@@ -41,25 +41,25 @@ public class ShelfServices {
 //	public ShelfDTO consultShelfById(@PathParam("id") long id) {
 //		return shelfBusiness.consultShelfById(id);
 //	}
-//	@DELETE
-//	@Path("/{id}")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public String deleteShelfById(@PathParam("id") long id) {
-//		shelfBusiness.deleteShelfById(id);
-//		return "Shelf deleted";
-//	}
+	@DELETE
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String deleteShelf(Shelf shelf) {
+		//shelfBusiness.deleteShelf(shelf);
+		return "Shelf deleted";
+	}
 	@GET
 	@Path("/health")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String health() {
 		return "healthy";
 	}
-//	@PUT
-//	@Path("/")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public void editShelfById(Shelf shelf) {
-//		shelfBusiness.editShelfById(shelf);
-//	}
+	@PUT
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public void editShelfById(Shelf shelf) {
+		shelfBusiness.editShelf(shelf);
+	}
 //	@GET
 //	@Path("/product/{id}")
 //	@Produces(MediaType.APPLICATION_JSON)

@@ -1,5 +1,6 @@
 package io.altar.jseproject.repositories;
 
+import io.altar.jseproject.model.Product;
 import io.altar.jseproject.model.Shelf;
 
 public class ShelfRepository extends EntityRepository<Shelf>{
@@ -12,4 +13,8 @@ public class ShelfRepository extends EntityRepository<Shelf>{
 	private ShelfRepository(){
 		
 	}
+	@Override
+	protected Class<Shelf> getTypeOfEntity(){
+		return Shelf.class;
+	};
 }

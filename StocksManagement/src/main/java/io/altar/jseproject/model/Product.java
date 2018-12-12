@@ -59,6 +59,7 @@ public class Product extends BaseEntity{
 	public void setPvp(double pvp) {
 		this.pvp = pvp;
 	}
+	
 //	private String getStringOfShelves(){
 //		String str="";
 //		for(int i=0;i<shelvesList.size();i++){

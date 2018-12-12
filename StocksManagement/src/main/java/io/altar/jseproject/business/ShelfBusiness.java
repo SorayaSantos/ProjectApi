@@ -73,18 +73,18 @@ public class ShelfBusiness {
 //			return new ShelfDTO( shelf.getCapacity(), shelf.getPrice());
 //		}
 //	}
-
-//	public void deleteShelfById(long id) {
+	@Transactional
+	public void deleteShelf(long id) {
 //		Shelf shelf = shelfRepository1.consultEntityById(id);
 //		Product product = shelf.getProduct();
 //		if (product != null) {
 //			product.getShelvesList().remove(shelf);
 //		}
-//		shelfRepository1.removeEntityById(id);
-//
-//	}
+		shelfRepository1.removeEntityById(id);
 
-//	public Shelf editShelfById(Shelf shelf) {
+	}
+	@Transactional
+	public Shelf editShelf(Shelf shelf) {
 //		Product oldProduct = null;
 //		long id = shelf.getId();
 //		Shelf shelfToBeChanged = shelfRepository1.consultEntityById(id);
@@ -98,10 +98,10 @@ public class ShelfBusiness {
 //			newProduct.getShelvesList().add(shelf);
 //			shelf.setProduct(newProduct);
 //		}
-//		shelfRepository1.editEntityById(id, shelf);
-//		return shelf;
-//
-//	}
+		shelfRepository1.editEntity(shelf);
+		return shelf;
+
+	}
 
 //	public List<ShelfDTO> consultListOfShelvesByProductId(long id) {
 //		Product product = productRepository.consultEntityById(id);

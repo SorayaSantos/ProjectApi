@@ -5164,3 +5164,556 @@
 2018-12-11 19:55:18,580 [Worker-148] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
 2018-12-11 19:55:18,580 [Worker-148] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
 2018-12-11 19:55:18,592 [Worker-148] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:13:35,037 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:13:35,137 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:13:35,196 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:13:35,197 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:14:58,256 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:14:58,315 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:14:58,318 [Worker-166] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:14:58,318 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:15:02,913 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:15:02,916 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:15:02,919 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:15:02,919 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:20:31,698 [Worker-156] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:20:31,722 [Worker-156] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 14:20:43,083 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:20:43,107 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 14:20:43,109 [Worker-203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:20:43,110 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:34:16,357 [Worker-117] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-12 14:34:18,595 [Worker-117] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: io.altar:StocksManagement:0.0.1-SNAPSHOT @ /Users/s4/Desktop/Java/ProjectApi/StocksManagement/pom.xml.
+2018-12-12 14:34:20,656 [Worker-117] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/main/java
+2018-12-12 14:34:20,657 [Worker-117] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StocksManagement/src/main/resources
+2018-12-12 14:34:20,659 [Worker-117] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/test/java
+2018-12-12 14:34:22,650 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StocksManagement
+2018-12-12 14:34:22,668 [Worker-117] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2018-12-12 14:34:25,728 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:34:25,729 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:34:25,771 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:34:25,772 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:34:25,773 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:34:25,820 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:34:26,223 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:43,320 [Worker-211] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-12 14:36:43,621 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: io.altar:StocksManagement:0.0.1-SNAPSHOT @ /Users/s4/Desktop/Java/ProjectApi/StocksManagement/pom.xml.
+2018-12-12 14:36:44,245 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/main/java
+2018-12-12 14:36:44,245 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StocksManagement/src/main/resources
+2018-12-12 14:36:44,246 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/test/java
+2018-12-12 14:36:44,656 [Worker-211] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StocksManagement
+2018-12-12 14:36:44,661 [Worker-211] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-12-12 14:36:45,855 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:45,856 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:36:45,872 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:45,873 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:36:45,873 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:36:45,873 [Worker-209] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:36:45,879 [Worker-209] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:51,524 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:36:51,525 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 14:36:59,644 [Worker-210] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:59,647 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 14:36:59,648 [Worker-210] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:36:59,649 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:39:32,961 [Worker-211] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-12 14:39:34,282 [Worker-211] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: io.altar:StocksManagement:0.0.1-SNAPSHOT @ /Users/s4/Desktop/Java/ProjectApi/StocksManagement/pom.xml.
+2018-12-12 14:39:35,700 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/main/java
+2018-12-12 14:39:35,701 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StocksManagement/src/main/resources
+2018-12-12 14:39:35,701 [Worker-211] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/test/java
+2018-12-12 14:39:36,397 [Worker-211] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StocksManagement
+2018-12-12 14:39:36,400 [Worker-211] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-12-12 14:39:37,982 [Worker-210] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:39:37,984 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:39:37,999 [Worker-210] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:39:38,000 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:39:38,001 [Worker-210] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:39:38,001 [Worker-210] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:39:38,008 [Worker-210] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:39:47,758 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:39:47,758 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 14:39:56,262 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:39:56,278 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 14:39:56,279 [Worker-211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:39:56,280 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:40:54,073 [Worker-213] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:40:54,074 [Worker-213] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-12 14:40:58,858 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:40:58,860 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:40:58,863 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:40:58,864 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:40:58,864 [Worker-206] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:40:58,864 [Worker-206] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:40:58,874 [Worker-206] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:21,018 [Worker-212] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-12 14:41:21,238 [Worker-212] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: io.altar:StocksManagement:0.0.1-SNAPSHOT @ /Users/s4/Desktop/Java/ProjectApi/StocksManagement/pom.xml.
+2018-12-12 14:41:21,851 [Worker-212] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/main/java
+2018-12-12 14:41:21,851 [Worker-212] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StocksManagement/src/main/resources
+2018-12-12 14:41:21,851 [Worker-212] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/test/java
+2018-12-12 14:41:22,273 [Worker-212] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StocksManagement
+2018-12-12 14:41:22,291 [Worker-212] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-12-12 14:41:23,322 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:23,324 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:41:23,338 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:23,339 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:41:23,339 [Worker-208] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:41:23,339 [Worker-208] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:41:23,346 [Worker-208] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:32,874 [Worker-208] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:41:32,874 [Worker-208] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-12 14:41:37,118 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:37,121 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:41:37,124 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:37,125 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:41:37,126 [Worker-213] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 14:41:37,126 [Worker-213] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 14:41:37,131 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:41:52,720 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/s4/Desktop/Java/ProjectApi/StocksManagement
+2018-12-12 14:41:52,720 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 14:42:00,186 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:42:00,219 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:42:00,221 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:42:00,221 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 14:59:33,790 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:59:33,831 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 14:59:33,832 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 14:59:33,832 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:00:04,580 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:00:04,644 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:00:04,645 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:00:04,646 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:00:22,299 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:00:22,331 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:00:22,332 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:00:22,332 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:07:19,344 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:19,386 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:07:19,388 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:19,389 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:07:47,878 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:47,909 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:07:47,911 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:47,912 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:07:59,327 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:59,328 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:07:59,329 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:07:59,330 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:08:06,374 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:06,376 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:08:06,378 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:06,433 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:08:25,721 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:25,753 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:08:25,755 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:25,756 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:08:38,930 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:38,932 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:08:38,933 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:08:38,934 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:10:19,467 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:10:19,498 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:10:19,499 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:10:19,499 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:10:52,970 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:10:52,998 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:10:52,999 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:10:53,000 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:11:04,128 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:04,165 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:11:04,166 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:04,167 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:11:19,724 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:19,765 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:11:19,767 [Worker-233] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:19,768 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:11:27,407 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:27,456 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:11:27,457 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:27,457 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:11:33,531 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:33,542 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:11:33,543 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:11:33,544 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:16:50,316 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:16:50,354 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:16:50,356 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:16:50,356 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:16:50,357 [Worker-242] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 15:16:50,357 [Worker-242] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 15:16:50,497 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:21,895 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:21,897 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:17:21,898 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:21,899 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:17:22,971 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:22,972 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:17:22,973 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:22,974 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:17:40,500 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:40,501 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:17:40,502 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:40,503 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:17:48,130 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:48,176 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:17:48,177 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:48,178 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:17:56,238 [Worker-240] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:56,239 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:17:56,240 [Worker-240] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:17:56,241 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:18:21,704 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:18:21,743 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:18:21,744 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:18:21,745 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:18:42,736 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:18:42,776 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:18:42,777 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:18:42,778 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:19:03,355 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:03,356 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:19:03,357 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:03,357 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:19:10,710 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:10,711 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:19:10,712 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:10,712 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:19:16,268 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:16,312 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:19:16,313 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:16,314 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:19:24,657 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:24,659 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:19:24,661 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:19:24,662 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:21:42,832 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:21:42,866 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:21:42,868 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:21:42,869 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:21:42,869 [Worker-231] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 15:21:42,869 [Worker-231] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 15:21:42,873 [Worker-231] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:33:24,986 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:33:25,021 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:33:25,022 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:33:25,022 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:33:25,023 [Worker-245] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 15:33:25,023 [Worker-245] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 15:33:25,027 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:38:15,874 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:38:15,911 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:38:15,913 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:38:15,914 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:38:15,914 [Worker-252] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 15:38:15,914 [Worker-252] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 15:38:15,918 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:44:54,126 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:44:54,168 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:44:54,170 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:44:54,170 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:44:54,171 [Worker-264] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 15:44:54,171 [Worker-264] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 15:44:54,178 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:07,089 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:07,122 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:46:07,123 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:07,124 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:46:22,417 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:22,455 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:46:22,457 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:22,458 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:46:33,485 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:33,486 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:46:33,487 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:33,488 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:46:42,107 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:42,122 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:46:42,123 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:46:42,123 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:47:02,915 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:02,916 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:47:02,917 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:02,918 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:47:28,643 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:28,645 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:47:28,646 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:28,646 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:47:37,624 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:37,625 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:47:37,627 [Worker-257] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:47:37,627 [Worker-257] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:04,554 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:04,555 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:04,556 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:04,556 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:09,980 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:10,024 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:10,025 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:10,026 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:21,847 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:21,848 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:21,848 [Worker-259] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:21,849 [Worker-259] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:31,840 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:31,900 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:31,901 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:31,902 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:46,465 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:46,466 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:46,467 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:46,467 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:48:58,015 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:58,055 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:48:58,057 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:48:58,057 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:49:23,111 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:49:23,111 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:49:23,112 [Worker-261] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:49:23,112 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 15:49:29,719 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:49:29,720 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 15:49:29,722 [Worker-272] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 15:49:29,722 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:02:40,569 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:02:40,597 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:02:40,598 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:02:40,599 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:02:40,599 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:02:40,599 [Worker-343] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:02:40,749 [Worker-343] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:02:45,292 [Worker-340] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:02:45,293 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:02:45,294 [Worker-340] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:02:45,295 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:03:24,290 [Worker-341] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:03:24,291 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:03:24,292 [Worker-341] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:03:24,318 [Worker-341] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:03:31,912 [Worker-335] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:03:31,913 [Worker-335] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:03:31,915 [Worker-335] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:03:31,916 [Worker-335] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:04:36,941 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:04:36,972 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:04:36,974 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:04:36,975 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:06:30,162 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:06:30,194 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:06:30,195 [Worker-344] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:06:30,196 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:10:57,912 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:10:57,939 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:10:57,940 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:10:57,941 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:12:23,560 [Worker-349] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:12:23,561 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:12:23,562 [Worker-349] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:12:23,563 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:12:47,038 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:12:47,040 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:12:47,040 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:12:47,041 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:13:13,104 [Worker-349] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:13:13,105 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:13:13,105 [Worker-349] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:13:13,106 [Worker-349] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:13:52,528 [Worker-352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:13:52,561 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:13:52,562 [Worker-352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:13:52,573 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:14:09,536 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:14:09,537 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:14:09,538 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:14:09,539 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:15:15,513 [Worker-346] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:15:15,549 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:15:15,550 [Worker-346] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:15:15,550 [Worker-346] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:17:29,817 [Worker-355] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:17:29,861 [Worker-355] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:17:29,862 [Worker-355] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:17:29,863 [Worker-355] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:24:43,694 [Worker-361] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:24:43,712 [Worker-361] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:24:43,713 [Worker-361] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:24:43,714 [Worker-361] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:25:04,936 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:04,951 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:25:04,952 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:04,953 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:25:19,542 [Worker-360] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:19,542 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:25:19,543 [Worker-360] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:19,544 [Worker-360] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:25:31,022 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:31,023 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:25:31,024 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:25:31,024 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:26:47,601 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:26:47,602 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:26:47,603 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:26:47,603 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:27:52,619 [Worker-367] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:27:52,620 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:52,621 [Worker-367] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:27:52,621 [Worker-367] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:28:04,350 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:28:04,351 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:28:04,352 [Worker-364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:28:04,353 [Worker-364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:28:23,338 [Worker-368] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:28:23,340 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:28:23,341 [Worker-368] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:28:23,342 [Worker-368] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:30:12,972 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:30:12,973 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:30:12,974 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:30:12,974 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:30:35,573 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:30:35,574 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:30:35,575 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:30:35,575 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:31:01,009 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:31:01,010 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:31:01,011 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:31:01,011 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:31:47,631 [Worker-366] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-12-12 18:31:49,124 [Worker-366] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: io.altar:StocksManagement:0.0.1-SNAPSHOT @ /Users/s4/Desktop/Java/ProjectApi/StocksManagement/pom.xml.
+2018-12-12 18:31:51,102 [Worker-366] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/main/java
+2018-12-12 18:31:51,102 [Worker-366] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StocksManagement/src/main/resources
+2018-12-12 18:31:51,103 [Worker-366] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StocksManagement/src/test/java
+2018-12-12 18:31:51,787 [Worker-366] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for StocksManagement
+2018-12-12 18:31:51,831 [Worker-366] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2018-12-12 18:31:54,248 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:31:54,271 [Worker-375] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:31:54,285 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:31:54,285 [Worker-375] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:31:54,286 [Worker-375] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:31:54,286 [Worker-375] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:31:54,291 [Worker-375] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:10,924 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:10,954 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:32:10,955 [Worker-386] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:10,956 [Worker-386] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:32:42,562 [Worker-384] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:42,604 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:32:42,605 [Worker-384] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:42,605 [Worker-384] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:32:50,998 [Worker-365] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:51,015 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:32:51,016 [Worker-365] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:32:51,016 [Worker-365] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:49:16,217 [Worker-399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:49:16,270 [Worker-399] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:49:16,272 [Worker-399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:49:16,272 [Worker-399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:49:50,579 [Worker-398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:49:50,628 [Worker-398] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:49:50,630 [Worker-398] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:49:50,630 [Worker-398] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:50:34,116 [Worker-400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:50:34,118 [Worker-400] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:50:34,119 [Worker-400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:50:34,119 [Worker-400] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:50:34,120 [Worker-400] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:50:34,120 [Worker-400] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:50:34,131 [Worker-400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:52:42,583 [Worker-394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:52:42,592 [Worker-394] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:52:42,593 [Worker-394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:52:42,593 [Worker-394] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:52:42,594 [Worker-394] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:52:42,594 [Worker-394] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:52:42,597 [Worker-394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:14,312 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:14,313 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:53:14,313 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:14,314 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:53:24,527 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:24,592 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:53:24,593 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:24,593 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:53:41,577 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:41,636 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:53:41,637 [Worker-403] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:41,638 [Worker-403] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:53:49,454 [Worker-394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:49,455 [Worker-394] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:53:49,457 [Worker-394] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:53:49,457 [Worker-394] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:55:13,153 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:13,226 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:55:13,228 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:13,228 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:55:13,229 [Worker-392] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:55:13,229 [Worker-392] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:55:13,234 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:18,939 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:18,941 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:55:18,942 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:18,943 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:55:27,819 [Worker-402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:27,820 [Worker-402] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:55:27,821 [Worker-402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:27,849 [Worker-402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:55:54,140 [Worker-401] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:54,141 [Worker-401] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:55:54,143 [Worker-401] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:55:54,144 [Worker-401] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:58:21,899 [Worker-404] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:21,925 [Worker-404] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:21,927 [Worker-404] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:21,928 [Worker-404] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:58:21,928 [Worker-404] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 18:58:21,928 [Worker-404] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 18:58:21,932 [Worker-404] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:38,271 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:38,272 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:38,273 [Worker-392] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:38,274 [Worker-392] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:58:39,299 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:39,300 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:39,302 [Worker-406] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:39,302 [Worker-406] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 18:58:49,038 [Worker-402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:49,039 [Worker-402] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:49,041 [Worker-402] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 18:58:49,041 [Worker-402] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:17:30,830 [Worker-413] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:17:30,870 [Worker-413] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:17:30,871 [Worker-413] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:17:30,872 [Worker-413] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:17:30,872 [Worker-413] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StocksManagement
+2018-12-12 19:17:30,872 [Worker-413] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StocksManagement
+2018-12-12 19:17:30,878 [Worker-413] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:18:18,139 [Worker-413] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:18:18,180 [Worker-413] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:18:18,181 [Worker-413] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:18:18,182 [Worker-413] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:19:04,044 [Worker-415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:19:04,080 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:19:04,081 [Worker-415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:19:04,081 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:19:33,612 [Worker-418] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:19:33,690 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:19:33,691 [Worker-418] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:19:33,692 [Worker-418] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:20:07,903 [Worker-417] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:07,935 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:20:07,936 [Worker-417] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:07,936 [Worker-417] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:20:25,059 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:25,060 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:20:25,060 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:25,061 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:20:49,892 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:49,893 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:20:49,895 [Worker-420] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:20:49,896 [Worker-420] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:21:36,225 [Worker-421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:21:36,225 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:21:36,226 [Worker-421] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:21:36,227 [Worker-421] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources
+2018-12-12 19:21:55,632 [Worker-415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:21:55,670 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:21:55,671 [Worker-415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-12 19:21:55,672 [Worker-415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/test/resources

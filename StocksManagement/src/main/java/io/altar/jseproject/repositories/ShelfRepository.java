@@ -17,4 +17,8 @@ public class ShelfRepository extends EntityRepository<Shelf>{
 	protected Class<Shelf> getTypeOfEntity(){
 		return Shelf.class;
 	};
+	@Override
+	protected String getNameOfQuery(){
+		return Shelf.nameOfQuery;
+	};
 }

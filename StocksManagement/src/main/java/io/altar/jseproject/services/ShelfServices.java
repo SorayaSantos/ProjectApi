@@ -29,23 +29,23 @@ public class ShelfServices {
 	public void createShelf(Shelf shelf) {
 		shelfBusiness.createShelf(shelf);
 	}
-//	@GET
-//	@Path("/")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public List<ShelfDTO> consultShelves() {
-//		return shelfBusiness.consultShelves();
-//	}
-//	@GET
-//	@Path("/{id}")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public ShelfDTO consultShelfById(@PathParam("id") long id) {
-//		return shelfBusiness.consultShelfById(id);
-//	}
+	@GET
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<ShelfDTO> consultShelves() {
+		return shelfBusiness.consultShelves();
+	}
+	@GET
+	@Path("/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ShelfDTO consultShelfById(@PathParam("id") long id) {
+		return shelfBusiness.consultShelfById(id);
+	}
 	@DELETE
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String deleteShelf(Shelf shelf) {
-		//shelfBusiness.deleteShelf(shelf);
+	public String deleteShelf(long id) {
+		shelfBusiness.deleteShelf(id);
 		return "Shelf deleted";
 	}
 	@GET
@@ -57,13 +57,13 @@ public class ShelfServices {
 	@PUT
 	@Path("/")
 	@Produces(MediaType.APPLICATION_JSON)
-	public void editShelfById(Shelf shelf) {
+	public void editShelf(Shelf shelf) {
 		shelfBusiness.editShelf(shelf);
 	}
-//	@GET
-//	@Path("/product/{id}")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public List<ShelfDTO>  consultListOfShelvesByProductId(@PathParam("id") long id) {
-//		return shelfBusiness.consultListOfShelvesByProductId(id);
-//	}
+	@GET
+	@Path("/product/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<ShelfDTO>  consultListOfShelvesByProductId(@PathParam("id") long id) {
+		return shelfBusiness.consultListOfShelvesByProductId(id);
+	}
 }

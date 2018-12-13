@@ -6,20 +6,24 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 
 @Entity
+@NamedQuery(name=Product.nameOfQuery, query="SELECT p FROM Product p")
 public class Product extends BaseEntity{
 	private static final long serialVersionUID=1L;
+	
 	@OneToMany(fetch=FetchType.LAZY,mappedBy="product")
 	private List<Shelf> shelvesList=new ArrayList<Shelf>();
 	private double discount;
 	private double iva;
 	private double pvp;
+	public static final String nameOfQuery="GetAllProducts";
 	public Product(){}
 
 
-	public Product(ArrayList<Shelf> shelvesList, double discount, double iva, double pvp) {
+	public Product(List<Shelf> shelvesList, double discount, double iva, double pvp) {
 		super();
 		this.shelvesList = shelvesList;
 		this.discount = discount;
@@ -27,12 +31,11 @@ public class Product extends BaseEntity{
 		this.pvp = pvp;
 	}
 	
-
 	public  List<Shelf> getShelvesList() {
 		return  shelvesList;
 	}
 
-	public void setShelvesList(ArrayList<Shelf> shelvesList) {
+	public void setShelvesList(List<Shelf> shelvesList) {
 		this.shelvesList = shelvesList;
 	}
 

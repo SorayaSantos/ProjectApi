@@ -10,11 +10,11 @@
  <validation>
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
-   <linked-resource name="%1;" path="%0"/>
-   <linked-resource name="%1;%3;" path="%2"/>
-   <linked-resource name="%4;" path="%3"/>
+   <linked-resource name="%1;%2;" path="%0"/>
+   <linked-resource name="%1;%2;" path="%3"/>
+   <linked-resource name="%4;" path="%2"/>
    <linked-resource name="%5;" path="%1"/>
-   <linked-resource name="%1;%3;" path="%6"/>
+   <linked-resource name="%1;%2;" path="%6"/>
   </core>
   <core validator-id="batch-verification"/>
   <core validator-id="jboss.jsf.core"/>
@@ -34,9 +34,9 @@
   <alias path="project.artifactId" value="%7"/>
   <alias path="project" value="%9"/>
   <alias
-   path="/StocksManagement/src/main/java/io/altar/jseproject/repositories/ShelfRepository.java" value="%2"/>
+   path="/StocksManagement/src/main/java/io/altar/jseproject/business/ShelfBusiness.java" value="%2"/>
   <alias
-   path="/StocksManagement/src/main/java/io/altar/jseproject/business/ShelfBusiness.java" value="%3"/>
+   path="/StocksManagement/src/main/java/io/altar/jseproject/repositories/ShelfRepository.java" value="%3"/>
   <alias
    path="/StocksManagement/src/main/java/io/altar/jseproject/services/ProductServices.java" value="%5"/>
   <alias

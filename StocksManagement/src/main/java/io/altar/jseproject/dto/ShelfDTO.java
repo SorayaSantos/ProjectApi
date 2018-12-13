@@ -16,7 +16,7 @@ public class ShelfDTO{
 	}
 	
 
-	public ShelfDTO( long capacity, double price) {
+	public ShelfDTO(long id,long capacity, double price) {
 		super();
 		this.capacity = capacity;
 		this.price = price;

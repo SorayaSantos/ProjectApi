@@ -3,6 +3,7 @@ package io.altar.jseproject.repositories;
 import java.util.Collection;
 //import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.EntityManager;
@@ -32,11 +33,14 @@ public abstract class EntityRepository<T extends BaseEntity>{
 		map.put(ent.getId(), ent);
 		return newId;
 	}*/
-	//public Collection<T> consultEntities() {
+	public List<T> consultEntities() {
 		//return map.values();
-	//}
+		return entityManager.createNamedQuery(getNameOfQuery(),getTypeOfEntity()).getResultList();
+		
+	}
 	public T consultEntityById(long id){
 		//return map.get(id);
+		
 		return entityManager.find(getTypeOfEntity(),id);
 	}
 	public void editEntity( T entity){
@@ -51,5 +55,5 @@ public abstract class EntityRepository<T extends BaseEntity>{
 	}
 	
 	protected abstract Class<T> getTypeOfEntity();
-
+	protected abstract String getNameOfQuery();
 }

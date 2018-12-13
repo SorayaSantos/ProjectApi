@@ -27,7 +27,7 @@ public class ProductBusiness {
 	@Transactional
 	public void createProduct(Product product) {
 		List<Shelf> shelvesList;
-		ArrayList<Shelf> newShelvesList = new ArrayList<Shelf>();
+		List<Shelf> newShelvesList = new ArrayList<Shelf>();
 		shelvesList = product.getShelvesList();
 
 		if (shelvesList.size() > 0) {
@@ -37,9 +37,11 @@ public class ProductBusiness {
 			for (Shelf shelf : shelvesList) {
 				if (shelf.getProduct() == null) {
 					shelf.setProduct(product);
+					shelfRepository1.editEntity(shelf);
 				} else {
 					newShelvesList.remove(shelf);
 					product.setShelvesList(newShelvesList);
+					productRepository1.editEntity(product);
 				}
 			}
 		}
@@ -48,16 +50,16 @@ public class ProductBusiness {
 
 	}
 
-//	public List<ProductDTO> consultProducts() {
-//
-//		Collection<Product> products= productRepository1.consultEntities();
-//		List<ProductDTO> productsDTO=new ArrayList<>();
-//
-//		for (Product product :products) {
-//			productsDTO.add(new ProductDTO(product.getDiscount(),product.getIva(),product.getPvp()));
-//		}
-//			return productsDTO;	
-//	}
+	public List<ProductDTO> consultProducts() {
+
+		List<Product> products= productRepository1.consultEntities();
+		List<ProductDTO> productsDTO=new ArrayList<>();
+
+		for (Product product :products) {
+			productsDTO.add(new ProductDTO(product.getId(),product.getDiscount(),product.getIva(),product.getPvp()));
+		}
+			return productsDTO;	
+	}
 
 	public ProductDTO consultProductById(long id) {
 		Product product = productRepository1.consultEntityById(id);
@@ -65,29 +67,32 @@ public class ProductBusiness {
 	}
 	@Transactional
 	public void deleteProduct(long id) {
-//		List<Shelf> shelvesList;
-//		shelvesList = productRepository1.consultEntityById(id).getShelvesList();
-//		if (shelvesList != null) {
-//			for (Shelf shelf : shelvesList) {
-//				shelf.setProduct(null);
-//			}
-//		}
+		List<Shelf> shelvesList;
+		shelvesList = productRepository1.consultEntityById(id).getShelvesList();
+		if (shelvesList != null) {
+			for (Shelf shelf : shelvesList) {
+				shelf.setProduct(null);
+				shelfRepository1.editEntity(shelf);
+			}
+		}
 		productRepository1.removeEntityById(id);
 	}
 	@Transactional
 	public void editProduct(Product product) {
-//		long id = product.getId();
-//		List<Shelf> oldShelvesList;
-//		List<Shelf> newShelvesList;
-//		newShelvesList = product.getShelvesList();
-//		oldShelvesList = productRepository1.consultEntityById(id).getShelvesList();
-//
-//		for (Shelf shelf : oldShelvesList) {
-//			shelf.setProduct(null);
-//		}
-//		for (Shelf shelf : newShelvesList) {
-//			shelf.setProduct(product);
-//		}
+		long id = product.getId();
+		List<Shelf> oldShelvesList;
+		List<Shelf> newShelvesList;
+		newShelvesList = product.getShelvesList();
+		oldShelvesList = productRepository1.consultEntityById(id).getShelvesList();
+
+		for (Shelf shelf : oldShelvesList) {
+			shelf.setProduct(null);
+			shelfRepository1.editEntity(shelf);
+		}
+		for (Shelf shelf : newShelvesList) {
+			shelf.setProduct(product);
+			shelfRepository1.editEntity(shelf);
+		}
 		productRepository1.editEntity(product);
 	}
 }

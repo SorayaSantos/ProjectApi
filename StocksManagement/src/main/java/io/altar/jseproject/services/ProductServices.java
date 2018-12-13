@@ -28,12 +28,12 @@ public class ProductServices {
 	public void createProduct(Product product) {
 		productBusiness.createProduct(product);
 	}
-//	@GET
-//	@Path("/")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public List<ProductDTO> consultProducts() {
-//		return productBusiness.consultProducts();
-//	}
+	@GET
+	@Path("/")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<ProductDTO> consultProducts() {
+		return productBusiness.consultProducts();
+	}
 	@GET
 	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)

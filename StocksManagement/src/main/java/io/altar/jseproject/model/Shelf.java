@@ -3,8 +3,10 @@ package io.altar.jseproject.model;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name=Shelf.nameOfQuery, query="SELECT s FROM Shelf s")
 public class Shelf extends BaseEntity{
 	private static final long serialVersionUID=1L;
 
@@ -12,6 +14,7 @@ public class Shelf extends BaseEntity{
 	@ManyToOne(cascade=CascadeType.ALL)
 	private Product product;
 	private double price;
+	public static final String nameOfQuery="GetAllShelves";
 	public Shelf(){}
 	
 	public Shelf(long capacity, Product product, double price) {

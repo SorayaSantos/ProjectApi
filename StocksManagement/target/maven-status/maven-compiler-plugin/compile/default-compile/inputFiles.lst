@@ -8,6 +8,7 @@
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/business/ProductBusiness.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/business/ShelfBusiness.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/dto/ShelfDTO.java
+/Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/filters/CORSFilter.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/dto/ProductDTO.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/repositories/ShelfRepository.java
 /Users/s4/Desktop/Java/ProjectApi/StocksManagement/src/main/java/io/altar/jseproject/services/ShelfServices.java

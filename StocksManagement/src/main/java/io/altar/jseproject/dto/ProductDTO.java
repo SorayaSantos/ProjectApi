@@ -1,5 +1,7 @@
 package io.altar.jseproject.dto;
 
+import io.altar.jseproject.model.BaseEntity;
+
 public class ProductDTO{
 
 	private long id;

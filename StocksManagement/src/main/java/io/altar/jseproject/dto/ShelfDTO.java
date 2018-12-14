@@ -18,6 +18,7 @@ public class ShelfDTO{
 
 	public ShelfDTO(long id,long capacity, double price) {
 		super();
+		this.id = id;
 		this.capacity = capacity;
 		this.price = price;
 	}

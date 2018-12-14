@@ -37,7 +37,8 @@
 <fullyQualifiedTypeName name="io.altar.jseproject.repositories.ShelfRepository"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="io.altar.jseproject.model.BaseEntity"/>
 </qualifiedTypeNameHistroy>

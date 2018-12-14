@@ -31,7 +31,7 @@ public class ShelfBusiness {
 		if (shelf.getProduct() != null) {
 			Product product = productRepository.consultEntityById(shelf.getProduct().getId());
 			if (product != null) {
-
+				shelf.setProduct(product);
 				shelfRepository1.createEntities(shelf);
 
 				shelf.setProduct(product);
@@ -56,12 +56,17 @@ public class ShelfBusiness {
 		List<Shelf> shelves = shelfRepository1.consultEntities();
 		List<ShelfDTO> shelvesDTO = new ArrayList<>();
 		for (Shelf shelf : shelves) {
+
 			Product product = shelf.getProduct();
 			if (product != null) {
+				System.out.println("ID:");
+				System.out.println(shelf.getId());
 				ProductDTO productDTO = new ProductDTO(product.getId(),product.getDiscount(), product.getIva(),
 						product.getPvp());
 				shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(), productDTO, shelf.getPrice()));
-			} else {
+			} else {				
+				System.out.println("ID2:");
+				System.out.println(shelf.getId());
 				shelvesDTO.add(new ShelfDTO(shelf.getId(),shelf.getCapacity(), shelf.getPrice()));
 			}
 		}

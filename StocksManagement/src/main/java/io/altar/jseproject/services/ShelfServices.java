@@ -42,9 +42,9 @@ public class ShelfServices {
 		return shelfBusiness.consultShelfById(id);
 	}
 	@DELETE
-	@Path("/")
+	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String deleteShelf(long id) {
+	public String deleteShelf(@PathParam("id") long id) {
 		shelfBusiness.deleteShelf(id);
 		return "Shelf deleted";
 	}
